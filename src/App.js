@@ -1,7 +1,12 @@
 import "./App.css";
 
 function App() {
-  return <div className="App">New Fb</div>;
+  return (
+    <>
+      <div>Not New FB</div>
+      <div className="App">New Fb</div>
+    </>
+  );
 }
 
 export default App;
